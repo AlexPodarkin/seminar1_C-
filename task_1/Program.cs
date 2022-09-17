@@ -12,11 +12,11 @@ Console.Write("Enter second number:");
 int num2 = Convert.ToInt32(Console.ReadLine());
 if (num1 > num2)
 {
-    Console.Write($"{num1} the first number is greater !\n");
+    Console.Write($"Max = {num1} the first number is greater !\n");
 }
 else if (num1 < num2)
 {
-    Console.WriteLine($"{num2} the second number is greater !\n"); 
+    Console.WriteLine($"Max = {num2} the second number is greater !\n"); 
 }
 else
 {
